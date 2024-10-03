@@ -39,7 +39,7 @@ document.getElementById('form-acepto').addEventListener('submit', function (e) {
         telefono: this.querySelector('input[placeholder="Número de teléfono"]').value,
         acompanantes: this.querySelector('input[placeholder="Número de acompañantes"]').value,
     };
-    fetch('http://localhost:9000/acepto', {
+    fetch('https://web1-2-opm9.onrender.com/acepto', { // Cambiado a tu dominio
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ document.getElementById('form-declino').addEventListener('submit', function (e) 
         apellido: this.querySelector('input[placeholder="Apellido"]').value,
         motivo: this.querySelector('input[placeholder="Motivo (Opcional)"]').value,
     };
-    fetch('http://localhost:9000/declino', {
+    fetch('https://web1-2-opm9.onrender.com/declino', { // Cambiado a tu dominio
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
