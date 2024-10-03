@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina de invitacion boda</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+</head>
+<body>
+    <div class="img-fondo">
+        <img src="./img/img5.jpg" class="img-fondo1" alt="">
+        <img src="./img/img-celular.jpg" class="img-fondo1 imagen-celular" alt="">
+    </div> 
+    <div class="overlay"></div>
+    <header>
+  <!-- Header -->
+  <header class="header">
+    <nav class="header_nav">
+      <ul class="header__nav-ul">
+        <li class="header__nav-li">
+          <button class="btn btn-primary header__boton-abrir" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            <i class="bi bi-list logo-menu"></i>
+          </button>
+          <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">MENU</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="nav nav-pills flex-column offcanvas__nav-ul ">
+                <li class="nav-item offcanvas__nav-ul-li">
+                  <a href="#vienes">Confirmar asistencia</a>
+                </li>
+                <li class="nav-item offcanvas__nav-ul-li">
+                  <a href="#Cronología">Cronología de la boda</a>
+                </li>
+                <li class="nav-item offcanvas__nav-ul-li">
+                  <a href="#detalles">Detalles</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-pc">
+            <ul class="nav nav-pills header-pc__nav-ul ">
+              <li class="nav-item header-pc__nav-ul-li">
+                <a class="header__pc-li-link" href="#vienes">Confirmar asistencia</a>
+              </li>
+              <li class="nav-item header-pc__nav-ul-li">
+                <a class="header__pc-li-link" href="#Cronología">Cronología de la boda</a>
+              </li>
+              <li class="nav-item header-pc__nav-ul-li">
+                <a class="header__pc-li-link" href="#Cuenta">Contador</a>
+              </li>
+              <li class="nav-item header-pc__nav-ul-li">
+                <a class="header__pc-li-link" href="#detalles">Detalles</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+        <div class="container-fluid h-100 text-center">
+            <div class="row h-100">
+                <!-- Columna de imágenes, ocupa toda la pantalla en pantallas pequeñas -->
+                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center img-layout">
+                    <div class="big-img-container">
+                        <img src="./img/img1.jpg" class="big-img" alt="Imagen grande">
+                        <img src="./img/img2.jpg" class="small-img small-img1" alt="Imagen pequeña 1">
+                        <img src="./img/img3.jpg" class="small-img small-img2" alt="Imagen pequeña 2">
+                    </div>
+                </div>
+                <!-- Otra columna -->
+                <div class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center">
+                  <p class="parrafo-grid2">Estás invitado a celebrar el gran día de</p>
+                  <h1>Jair y Sandra</h1>
+                  <a href="#invitacion" type="button" class="btn btn-primary confirmar-asistencia">Confirmar asistencia</a>
+                </div>
+                <!-- Otra columna -->
+                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="big-img-container">
+                        <img src="./img/img4.jpg" class="big-img" alt="Imagen grande">
+                        <img src="./img/img6.jpg" class="small-img small-img4" alt="Imagen pequeña 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="main-detalles">
+      <section id="detalles">
+        <div class="container-fluid h-100 text-center">
+          <div class="row h-100">
+              <div class="col-12 detalles-caja">
+                <h2 class="Detalles">Detalles</h2>
+              </div>
+              <div class="col-12 col-md-4 d-flex align-items-center  flex-column">
+                  <h3>Fecha</h3>
+                  <span>2 de noviembre 2024</span>
+                  <span>Sábado</span>
+              </div>
+              <!-- Otra columna -->
+              <div class="col-12 col-md-4 d-flex flex-column align-items-center  flex-column">
+                <h3>Tiempo</h3>
+                <span>Misa a partir de las 18:00 horas</span>
+                <span>Fiesta a partir de las 20:00 horas</span>
+              </div>
+              <!-- Otra columna -->
+              <div class="col-12 col-md-4 d-flex align-items-center  flex-column">
+                <h3>Ubicación</h3>
+                <a  href="https://maps.app.goo.gl/vXhKrmA9duXjoriB6"><span>Ceremonia — Parroquia Nuestra Señora De La Esperanza - Dar click para maps</span></a>
+                <a  href="https://maps.app.goo.gl/qo1jWwjBwPcNd5sy5"><span>Fiesta — Salón Comunal Alameda - Dar click para maps</span></a>
+              </div>
+          </div>
+      </div>
+    </main>
+    <main>
+      <div class="container-fluid h-100 text-center">
+        <section id="Cronología">
+        <div class="row h-100 ">
+            <div class="col-12 detalles-caja">
+              <h2 class="titulo-cronologia">Cronología de la boda</h2>
+            </div>
+            <div class="col-12 col-md-4 d-flex align-items-center  flex-column">
+                <img src="./img/pareja-de-boda.png" class="logo-cronologia" alt="">
+                <h4>18:00</h4>
+                <p class="info-p">Ceremonia</p>
+            </div>
+            <!-- Otra columna -->
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center  flex-column">
+              <img src="./img/baile.png" class="logo-cronologia" alt="">
+              <h4>20:00</h4>
+              <p class="info-p">Bebidas y baile</p>
+            </div>
+            <!-- Otra columna -->
+            <div class="col-12 col-md-4 d-flex align-items-center  flex-column">
+              <img src="./img/tarta-de-boda.png" class="logo-cronologia" alt="">
+              <h4>23:00</h4>
+              <p class="info-p">Cenas y discursos</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <main class="main-contador">
+      <section id="Cuenta">
+      <div class="container-fluid h-100 text-center">
+          <div class="row h-100">
+              <div class="col-12 detalles-caja">
+                  <h2 class="titulo-contador">Cuenta regresiva</h2>
+              </div>
+              <div class="col-12 d-flex align-items-center justify-content-center flex-column">
+                  <div id="countdown" class="contador">
+                      <div class="contador-div">
+                          <span id="days"></span>
+                          <p>Días</p>
+                      </div>
+                      <div class="separador"><span class="separador-span">:</span></div>
+                      <div class="contador-div">
+                          <span id="hours"></span>
+                          <p>Horas</p>
+                      </div>
+                      <div class="separador"><span class="separador-span">:</span></div>
+                      <div class="contador-div">
+                          <span id="minutes"></span>
+                          <p>Minutos</p>
+                      </div>
+                      <div class="separador"><span class="separador-span">:</span></div>
+                      <div class="contador-div"> 
+                          <span id="seconds"></span>
+                          <p>Segundos</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+  <main class="vienes">
+    <section id="vienes">
+    <div class="vienes-div">
+    <h1>¿Vienes?</h1>
+    <h1>Jair y Sandra</h1>
+    <p class="responder">Por favor, responder antes del 30 de octubre.</p>
+    <p class="responder">02.11.2024 | 6:00PM (GMT+04:00)</p>
+    <a href="#invitacion" type="button"  id="boton-confirmar" class="btn btn-primary">confirmar asistencia</a>
+  </div>
+  </main>
+  <main class="invitacion-main">
+    <section id="invitacion"></section>
+    <h1 class="titulo-invitacion">Estás invitado a nuestra boda</h1>
+    <div class="opciones-respuesta">
+        <label>
+            <input type="radio" id="acepto" name="respuesta" onclick="mostrarFormulario('acepto')">
+            Acepto con mucho gusto
+        </label>
+        <label>
+            <input type="radio" id="declino" name="respuesta" onclick="mostrarFormulario('declino')">
+            Lamentablemente tengo que declinar
+        </label>
+    </div>
+
+    <form class="form-opciones" id="form-acepto" style="display: none;">
+        <h2>Confirmar asistencia</h2>
+        <input type="text" placeholder="Nombre" required><br>
+        <input type="text" placeholder="Apellido" required><br>
+        <input type="tel" placeholder="Número de teléfono" required><br>
+        <input type="number" placeholder="Número de acompañantes" required><br>
+        <button type="submit" class="boton-confirmar">Enviar</button>
+    </form>
+
+    <form class="form-opciones" id="form-declino" style="display: none;">
+        <h2>Lamentamos que no puedas asistir</h2>
+        <input type="text" placeholder="Nombre" required><br>
+        <input type="text" placeholder="Apellido" required><br>
+        <input type="text" placeholder="Motivo (Opcional)"><br>
+        <button type="submit" class="boton-confirmar">Enviar</button>
+    </form>
+</main>
+
+
+
+    <footer>
+      <footer>
+        <div class="container text-center">
+            <ul class="footer-links">
+                <li><a href="../Pages/index.html">Confirmar asistencia</a></li>
+                <li><a href="Notificaciones.html">Cronología de la boda</a></li>
+                <li><a href="pqrs.html">Detalles</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+    <script src="navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>
