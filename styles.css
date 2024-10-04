@@ -1,3 +1,6 @@
+body {
+    zoom: 0.75; /* Aplica zoom del 75% a toda la página */
+}
 main {
     position: relative;
     width: 100%;
