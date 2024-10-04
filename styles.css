@@ -139,7 +139,9 @@ h1{
     z-index: -2;
    
    }
- 
+ body {
+    zoom: 1; /* Aplica zoom del 75% a toda la página */
+}
     .big-img {
         width: 60%;
         height: 40%;
