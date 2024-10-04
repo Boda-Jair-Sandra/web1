@@ -297,18 +297,18 @@ h4{
     font-size: 80px;
 }
 
-.vienes-div{
+.vienes-div {
     margin: auto;
     margin-top: 5%;
     text-align: center;
-
 }
-.vienes{
+
+.vienes {
     background-color: #6a6c61ee;
     height: 80vh;
-    
 }
-.responder{
+
+.responder {
     color: #ffffff;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -316,7 +316,8 @@ h4{
     font-size: 35px;
     margin-bottom: 50px;
 }
-#boton-confirmar{
+
+#boton-confirmar {
     background-color: #41423bee;
     border: 1px solid #41423bee;
     height: 50px;
@@ -327,16 +328,37 @@ h4{
     font-weight: 400;
     font-size: 25px;
 }
+
 #boton-confirmar:hover {
     background-color: #616359ee;
     border: 1px solid #616359ee;
 }
 
 #boton-confirmar:active {
-    background-color: #3e3f42ee; /* Cambiamos a un tono más oscuro al presionar */
-    border: 1px solid #3e3f42ee; /* Cambiamos el color del borde */
-    transform: scale(0.98); /* Añadimos un pequeño efecto de 'encogerse' */
+    background-color: #3e3f42ee;
+    border: 1px solid #3e3f42ee;
+    transform: scale(0.98);
 }
+
+/* Media Queries para pantallas más pequeñas (hasta 768px de ancho) */
+@media (max-width: 768px) {
+    .vienes {
+        height: auto; /* Ajusta la altura para evitar problemas en pantallas pequeñas */
+        padding: 20px 0;
+    }
+
+    .responder {
+        font-size: 28px; /* Disminuir el tamaño de la fuente para pantallas pequeñas */
+        margin-bottom: 30px; /* Ajustar el margen inferior */
+    }
+
+    #boton-confirmar {
+        width: 70%; /* Aumentar el ancho del botón para pantallas pequeñas */
+        font-size: 20px; /* Reducir el tamaño de la fuente */
+        height: 45px; /* Ajustar la altura del botón */
+    }
+}
+
 
 
 .titulo-invitacion{
